@@ -192,7 +192,7 @@ set $id     #666666
 set $ce     #ceecee
 
 # set some nice colors      border  background  text    indicator
-client.focused			$id 	$ac 		$tx 	$id
+client.focused		$id 	$ac 		$tx 	$id
 client.unfocused            $bg     $bg         $ia     $id
 client.focused_inactive     $bg     $bg         $ac     $id
 client.urgent               $yw     $yw         $tx     $id
