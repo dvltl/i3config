@@ -151,10 +151,10 @@ bindsym $mod+r mode "resize"
 #---------------
 
 assign [class="Firefox"		]		$ws1
-assign [class="Transmission"]		$ws1
+assign [class="Transmission"	]		$ws1
 assign [class="Sylpheed"	]		$ws2
 assign [class="Deadbeef"	]		$ws4
-assign [class="mpv"			]		$ws4
+assign [class="mpv"		]		$ws4
 assign [class="Skype"		]		$ws5
 assign [class="Telegram"	]		$ws5
 
@@ -192,7 +192,7 @@ set $id     #666666
 set $ce     #ceecee
 
 # set some nice colors      border  background  text    indicator
-client.focused 				$id 	$ac 		$tx 	$id
+client.focused			$id 	$ac 		$tx 	$id
 client.unfocused            $bg     $bg         $ia     $id
 client.focused_inactive     $bg     $bg         $ac     $id
 client.urgent               $yw     $yw         $tx     $id
@@ -206,9 +206,9 @@ client.urgent               $yw     $yw         $tx     $id
 
 bar {
 	status_command 		i3status
-	position 			bottom
+	position 		bottom
 	tray_output 		primary
-	font				pango:Droid Sans Mono 10.5
+	font			pango:Droid Sans Mono 10.5
 
     colors {
         background          $bg
